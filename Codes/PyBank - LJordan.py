@@ -23,7 +23,7 @@ with open("./budget_data.csv", 'r') as csvfile:
 
     #prints file headers - not part of exercise, can be deleted
     header = next(csvreader)
-    print(header)
+    #print(header)
     
     #define the variables needed for problem
     month_count = []
@@ -62,3 +62,10 @@ print(f"Greatest Increase in Profits: {month_count[increase_month]} (${(str(high
 print(f"Greatest Decrease in Profits: {month_count[decrease_month]} (${(str(highestdecrease))})")
 
 #your final script should both print the analysis to the terminal and export a text file with the results.
+f = open("pybank-ljordan.txt", "w")
+f.write("Financial Analysis")
+f.write(f"Total Months: {len(month_count)}")
+f.write(f"Total: ${sum(profit)}")
+f.write(f"Average Change: ${round(sum(profit_change)/len(profit_change),2)}")
+f.write(f"Greatest Increase in Profits: {month_count[increase_month]} (${(str(highestincrease))})")
+f.write(f"Greatest Decrease in Profits: {month_count[decrease_month]} (${(str(highestdecrease))})")
