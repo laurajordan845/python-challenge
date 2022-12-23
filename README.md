@@ -23,13 +23,13 @@ I joined office hours for the support needed for this challenge assignment.
 
 This submimssion includes:
 
-  Main Python codes:
-    PyPoll - LJordan.py
-    PyBank - LJordan.py
-  Resources folder:
-    election_data.csv
-    budget_data.csv
-  Analysis folder:
-    pypoll - ljordan.txt
-    pybank - ljordan.txt
+  * Main Python codes:
+    - PyPoll - LJordan.py
+    - PyBank - LJordan.py
+  * Resources folder:
+    - election_data.csv
+    - budget_data.csv
+  * Analysis folder:
+    - pypoll - ljordan.txt
+    - pybank - ljordan.txt
     
